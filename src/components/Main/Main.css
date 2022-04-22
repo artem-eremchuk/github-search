@@ -1,0 +1,48 @@
+.main {
+  flex: 0 0 50%;
+  padding: 10px 0 20px 0;
+}
+
+.search {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 79%;
+  padding: 10px 12px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 7px;
+}
+
+.search-btn {
+  width: 20%;
+  padding: 10px 12px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.pages {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page, .current-page {
+  height: 30px;
+  width: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 0px 20px;
+  line-height: 25px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.current-page {
+  background-color: black;
+  color: #ffffff;
+}

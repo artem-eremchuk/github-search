@@ -1,0 +1,40 @@
+.repo {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repo-header-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.repo-header-stars {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.repo-last-commit {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.repo-link {
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.repo-header-name-link {
+  text-decoration: none;
+  cursor: pointer;
+}
